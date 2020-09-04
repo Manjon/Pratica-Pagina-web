@@ -1,0 +1,264 @@
+    /* General */
+*{
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+}
+ul li{  
+    list-style:none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #FF1493;
+}
+    /* Header */
+
+.header{
+    /* background: #DCDCDC; */
+    font-family: 'Pacifico', cursive;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+}
+.header a{
+    padding: 10px;
+}
+        /* Navegacion */
+.navegacion{
+    /* background: #D3D3D3; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+}
+.navegacion a{
+    font-family: 'Pacifico', cursive;   
+    padding: 10px;
+}
+
+        /* Banner */
+.banner{
+    width: 100%;
+    height: 485px;
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.imagen{
+    
+    width: 100%;
+}
+
+        /* Imagenes */
+.imagenes{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.imagenes img{
+    width: 300px;
+    height: 200px;
+    margin: 10px auto;
+}
+
+/* Texto de Imagenes */
+.ultima-secion{
+    width: 100px;
+    height: 200px;
+}
+.ultima-section p{
+    padding: 0;
+    margin: 15px 20px;
+    margin-left: 200px;
+    font-family: 'Balsamiq Sans', cursive;
+    /* text-align: center; */
+}
+
+
+/* Footer */
+footer{
+    border-top: 1px solid rgba(0, 0, 0, 0.342);
+}
+.foot{
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0px;
+    font-family: 'Pacifico', cursive;
+}
+.lista-enlaces a{
+    width: 100%;
+    height: 100px;
+    padding: 2px;
+}
+.navega a{
+    width: 100%;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+
+/* Estilos de Quienes Somos*/
+
+      /* Section */
+.contanier{
+
+    width: 30%;
+    height: 100px;
+    margin: 0;
+}
+.articulo{
+    margin-top: 50px;
+    margin-left: 375px;
+    width: 100vh;
+    height: 500px;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-evenly;
+
+}
+.articulo img{
+    margin-right: 10px;
+}
+.articulo h1{
+    margin-right: 25px;
+    display: inline-block;
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+}
+.parrafo{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 100%;
+    font-family: 'Pacifico', cursive;
+    font-weight: 300px;
+}
+.titulo-y-texto{
+    text-align: right;
+}
+.titulo-y-texto > h1{
+    margin-bottom: 5px;
+    color: #aadef8c4;
+}
+        /* Nuestos Servicios */
+.servicios{
+    width: 100%;
+    height: auto;
+    display:flex;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+.primera{
+    width: 50%;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 25px;
+    text-align: left;
+    font-family: 'Balsamiq Sans', cursive;
+    
+}
+.titulo-servicios > h1{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 10vh;
+    color: #aadef8c4;
+    font-family: 'Krona One', sans-serif;
+    border-bottom: 1px solid lightblue;
+}
+
+.segunda > img{
+    border-radius: 50%;
+    margin-top: 50px;
+    float: inline-end;
+}
+.section-secundaria{
+    width: 100%;
+    height: auto;
+    display:flex;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+.segunda-section{
+    width: 50%;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 25px;
+    text-align: right;
+    font-family: 'Balsamiq Sans', cursive;
+    
+}
+.section-secundaria > h1{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 10vh;
+    color: #aadef8c4;
+    font-family: 'Krona One', sans-serif;
+    border-bottom: 1px solid lightblue;
+}
+
+.primera-section > img{
+    border-radius: 50%;
+    margin-top: 50px;
+    float: inline-end;
+}
+
+            /* Contacto */
+.formulario{
+    width: 50%;
+    height: 150px;
+    display: flex;
+    flex-flow: column;
+
+}
+.input{
+    width: 50%;
+    padding: 10px;
+    margin: 20px 500px;
+    margin-top: 20px;
+    border-radius: 5px solid #000000;
+    border-top: #fff;
+    border-left: #fff;
+    border-right: #fff;
+}
+
+
+.titulo-h1{
+    color: #aadef8c4;
+    font-family: 'Krona One', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.textarea{
+    margin-left: 500px;
+}
+.enviar{
+    width: 350px;
+    padding: 10px;
+    margin: 20px 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition:all 300ms;
+}
+.enviar:hover{
+    transform: translateY(10px);
+    box-shadow: 0px 30px 5px -15px rgba(0, 0, 0, 0.3);
+}
